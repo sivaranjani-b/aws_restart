@@ -4,5 +4,5 @@ yum install httpd -y
 systemctl start httpd
 systemctl enable httpd
 cd  /var/www/html
-echo "This is my Frist Program , Hello World $(hostname -f)" > index.html
+echo "This is my First Program , Hello World $(hostname -f)" > index.html
 
